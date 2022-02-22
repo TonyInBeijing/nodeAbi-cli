@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "node-abi clify",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/TonyInBeijing/nodeAbi-cli#readme",
   "dependencies": {
+    "chalk": "^5.0.0",
     "commander": "^9.0.0",
     "node-abi": "^3.8.0"
   }

@@ -2,10 +2,23 @@
 
 run node-abi in your terminal instead of set up a project for it !
 
-1. git clone https://github.com/TonyInBeijing/nodeAbi-cli.git
-2. cd nodeAbi-cli && npm install 
-3. npm link (add `sudo` if necessary)
 
-This CLI can be install from [npm](https://www.npmjs.com/) soon !
+## Installation
 
-`Looking for your star ~`
+```bash
+npm install -g nodeabi-cli
+```
+## Usage
+
+```bash
+# nodeAbi.allTargets
+nodeAbi-cli getAll 
+
+# get target by ABI
+nodeAbi-cli getTarget -a 51 -p electron
+7.2.0
+
+# getABI by target
+nodeAbi-cli getAbi -t 7.2.0 -p node
+51
+```

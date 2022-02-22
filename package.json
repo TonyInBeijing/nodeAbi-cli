@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/TonyInBeijing/nodeAbi-cli#readme",
   "dependencies": {
-    "commander": "^9.0.0"
+    "commander": "^9.0.0",
+    "node-abi": "^3.8.0"
   }
 }
